@@ -1,0 +1,66 @@
+Purpose of the Script:
+
+The purpose of this script is to automate the process of scraping data from the Whisky Exchange website. Specifically, it extracts information about whisky products, including product names, prices, volumes, and purities. The script utilizes the Selenium and BeautifulSoup libraries to interact with the website and parse the HTML content.
+
+How to Run the Script:
+
+1. Install Dependencies:
+
+Before running the script, ensure that you have the necessary dependencies installed. You can install them using the following commands:
+
+bash
+Copy code
+pip install selenium
+pip install beautifulsoup4
+Make sure to have the ChromeDriver executable (compatible with your Chrome browser version) downloaded and placed in a directory listed in your system's PATH.
+
+2. Clone the Repository:
+
+Clone the repository containing the script from the source repository.
+
+bash
+Copy code
+git clone https://github.com/your_username/your_repository.git
+cd your_repository
+3. Run the Script:
+
+Execute the script using the following command:
+
+bash
+Copy code
+python script_name.py
+Replace script_name.py with the actual name of your script.
+
+4. Automation (Optional):
+
+To schedule the script to run at specific intervals automatically, consider using task scheduling tools such as Task Scheduler on Windows or cron on Unix-like systems.
+
+Dependencies:
+
+Selenium: Used for automating web browser interaction.
+
+Install using:
+
+bash
+Copy code
+pip install selenium
+BeautifulSoup: Used for parsing HTML content.
+
+Install using:
+
+bash
+Copy code
+pip install beautifulsoup4
+ChromeDriver: WebDriver for Chrome browser. Download the appropriate version for your Chrome browser from ChromeDriver Downloads.
+
+
+Author:
+
+[Blessing Awodeyi]
+
+[awodeyiblessing6@gmail.com]
+
+[www.linkedin.com/in/
+blessingawodeyi]
+
+
