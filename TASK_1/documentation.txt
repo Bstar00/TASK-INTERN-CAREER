@@ -20,7 +20,7 @@ Clone the repository containing the script from the source repository.
 
 bash
 Copy code
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/Bstar00/TASK-INTERN-CAREER.git
 cd your_repository
 3. Run the Script:
 
@@ -28,7 +28,7 @@ Execute the script using the following command:
 
 bash
 Copy code
-python script_name.py
+python3 scraping.py
 Replace script_name.py with the actual name of your script.
 
 4. Automation (Optional):
