@@ -24,12 +24,6 @@ git clone https://github.com/Bstar00/TASK-INTERN-CAREER.git
 cd your_repository
 3. Run the Script:
 
-Execute the script using the following command:
-
-bash
-Copy code
-python3 scraping.py
-auto_scraping_daily.py
 
 
 4. Automation (Optional):
