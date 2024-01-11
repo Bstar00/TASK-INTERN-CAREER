@@ -5,7 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-
+import time
+import schedule
 
 def wait_for_element(driver, by, value, timeout=10):
     """
@@ -57,7 +58,10 @@ def scrape_data():
         # Close the WebDriver
         driver.quit()
 
+# Schedule the script to run daily at 12:00
+schedule.every().day.at("12:00").do(scrape_data)
 
-
-# Call the scrape_data function
-scrape_data()
+# Keep the script running
+while True:
+    schedule.run_pending()
+    time.sleep(1)
