@@ -1,0 +1,42 @@
+Used Cars Data Analysis Script
+Overview:
+This script is designed to analyze a dataset of used cars, providing basic information, summary statistics, data filtering, and visualizations. It allows users to explore and gain insights into the dataset's characteristics, particularly focusing on mileage and kilometers driven.
+
+Usage:
+1. Script Execution:
+To run the script, use the following command in the terminal:
+
+bash
+Copy code
+python data_set.py
+.
+
+2. Dependencies:
+Python 3.x
+Pandas
+Matplotlib
+Seaborn
+Install the required dependencies using the following command:
+
+bash
+Copy code
+pip install pandas matplotlib seaborn
+Functions:
+Basic Information:
+
+Displays general information about the dataset, including data types and missing values.
+Summary Statistics:
+
+Presents statistical summary measures (count, mean, std, min, 25%, 50%, 75%, max) for each numerical column.
+Cleaning and Conversion:
+
+Cleans the 'Mileage' column by removing units ('km/kg' and 'kmpl') and converts it to numeric values.
+Handling Missing Values:
+
+Checks for missing values and prints their count. Users can modify the script to handle missing values based on their requirements.
+Data Filtering:
+
+Filters data based on a user-defined mileage threshold. By default, the threshold is set to 25 kmpl.
+Histogram Visualization:
+
+Generates a histogram for the 'Kilometers Driven' column, providing a visual representation of the data distribution.
